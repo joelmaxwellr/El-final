@@ -35,17 +35,17 @@ const Banner= ()=> {
             }}
         >
             <div className="banner__contents">
-                {/**Tittle */}
+               
                 <h1 className="banner__title">{movie?.title || movie?.name || movie?.original_name}</h1>
                 <div className="banner__buttons">
                     <button className="banner__button play">Play</button>
                     <button className="banner__button info"><div className="space"></div> More Information</button>
                     
                 </div>
-                {/**DIV > 2 BUTTONS */}
+                
 
                 <h1 className="banner__description">{truncate(movie?.overview, 150)}</h1>
-                {/*Description*/}
+                
             </div>   
             <div className="banner--fadeBottom"/>
         </header>
