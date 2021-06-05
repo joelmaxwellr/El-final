@@ -14,7 +14,7 @@ const Banner= ()=> {
     useEffect(() => {
         async function fetchData(){
             const request = await axios.get(requests.fetchNetflixOriginals)
-            //Give to our movie hook one of all the movies randomly
+            
             setMovie(request.data.results[
                 Math.floor(Math.random() * request.data.results.length -1)
             ]);
