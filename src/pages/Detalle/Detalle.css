@@ -1,0 +1,8 @@
+.contenedor{
+    position: absolute;
+    max-width: 70%px;
+    align-items: center;
+    align-content: center;
+    margin: auto;
+    padding: 2em;
+}
